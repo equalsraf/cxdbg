@@ -1,0 +1,24 @@
+[package]
+name = "cxdbg"
+version = "0.1.0"
+authors = ["raf"]
+
+[dependencies]
+serde_json = "1.0"
+serde_derive = "1.0"
+serde = "1.0"
+reqwest = "0.8"
+websocket = "0.20"
+log = "0.4"
+tokio-core = "*"
+hyper = "0.12"
+futures = "*"
+
+[build-dependencies]
+serde = "*"
+serde_derive = "*"
+serde_json = "*"
+
+[dev-dependencies]
+rustyline = "*"
+test-logger = "*"
